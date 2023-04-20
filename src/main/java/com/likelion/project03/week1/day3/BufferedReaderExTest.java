@@ -1,4 +1,4 @@
-package com.likelion.project03.week1;
+package com.likelion.project03.week1.day3;
 
 import java.io.IOException;
 
