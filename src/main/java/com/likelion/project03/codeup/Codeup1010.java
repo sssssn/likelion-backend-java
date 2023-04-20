@@ -7,5 +7,4 @@ public class Codeup1010 {
         int n = sc.nextInt();
         System.out.println(n);
     }
-
 }
