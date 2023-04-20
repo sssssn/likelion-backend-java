@@ -1,7 +1,6 @@
-package com.likelion.project03.week1;
+package com.likelion.project03.week1.day4;
 
 import java.util.Scanner;
-
 public class ScannerEx2 {
     public void inputTwoNumbersAndPlus() {
         Scanner sc = new Scanner(System.in);

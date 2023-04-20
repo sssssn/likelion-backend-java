@@ -1,4 +1,4 @@
-package com.likelion.project03;
+package com.likelion.project03.week1.day3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
