@@ -4,11 +4,11 @@ import com.likelion.project03.week1.day3.PrintHello;
 
 public class VariableEx {
     public static void main(String[] args) {
-        int iVal; // º¯¼ö ¼±¾ğ
-        iVal = 0; // ÃÊ±âÈ­_1 (ÃÖÃÊ·Î °ª ÁöÁ¤)
+        int iVal; // ë³€ìˆ˜ ì„ ì–¸
+        iVal = 0; // ì´ˆê¸°í™”
 
-        PrintHello printHello; // º¯¼ö ¼±¾ğ
-        printHello = new PrintHello(); // ÃÊ±âÈ­_2 (new ÀÎ½ºÅÏ½ºÈ­)
+        PrintHello printHello; // ë³€ìˆ˜ ì„ ì–¸
+        printHello = new PrintHello(); // newë¥¼ ì´ìš©í•´ ì¸ìŠ¤í„´ìŠ¤í™” ë° ì´ˆê¸°í™”
 
         System.out.println(iVal);
         printHello.print();

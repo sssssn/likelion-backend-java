@@ -2,6 +2,6 @@ package com.likelion.project03.week1.day4;
 
 public class PrintfTwoValuesShortage {
     public static void main(String[] args) {
-        System.out.printf("%s´Ô ¾È³çÇÏ¼¼¿ä. È­ÀÌÆÃ", "¼±³à");
+        System.out.printf("%së‹˜", "ì„ ë…€", "í™”ì´íŒ…");
     }
 }

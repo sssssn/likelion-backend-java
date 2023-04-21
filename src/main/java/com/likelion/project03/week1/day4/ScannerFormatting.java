@@ -6,7 +6,7 @@ public class ScannerFormatting {
         Scanner sc = new Scanner(System.in);
         int val1 = sc.nextInt();
         int val2 = sc.nextInt();
-        System.out.printf("%d¿Í %dÀÇ ÇÕÀº %dÀÔ´Ï´Ù.", val1, val2, val1 + val2);
+        System.out.printf("%dì™€ %dì˜ í•©ì€ %dì…ë‹ˆë‹¤.", val1, val2, val1 + val2);
 
     }
 }

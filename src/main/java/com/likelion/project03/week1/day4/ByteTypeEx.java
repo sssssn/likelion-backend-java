@@ -5,7 +5,7 @@ public class ByteTypeEx {
         byte byte1 = 10;
         byte byte2 = -127;
         byte byte3 = -128;
-        /* 1byte´Â 8bitÀÌ¹Ç·Î -128~127±îÁö 256°³ÀÇ ¼ıÀÚ¸¦ ÀúÀåÇÒ ¼ö ÀÖÀ½
+        /* 1byteëŠ” 8bitì´ë¯€ë¡œ -128~127ê¹Œì§€ 256ê°œì˜ ìˆ«ìë¥¼ ì €ì¥í•  ìˆ˜ ìˆìŒ
         byte byte4 = -129;
         byte byte5 = 128; */
         System.out.println(byte1);

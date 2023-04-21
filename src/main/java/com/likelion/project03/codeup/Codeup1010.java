@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Codeup1010 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt(); // º¯¼ö´Â 2±ÛÀÚ ÀÌ»ó!!!
+        int num = sc.nextInt(); // ë³€ìˆ˜ëª…ì€ í•œê¸€ì ì•ˆë¨!!!
         System.out.println(num);
     }
 }

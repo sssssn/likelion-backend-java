@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class ScannerEx3 {
     public void inputTwoNumbersAndPlus() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("µÎ°³ÀÇ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ÀÔ·ÂÇÏ°í ¿£ÅÍ ÀÔ·ÂÇÏ°í ¿£ÅÍ!");
-        System.out.print("Ã¹¹øÂ° ¼ıÀÚ:");
-        System.out.println("Ã¹¹øÂ° ¼ıÀÚ´Â " + sc.nextInt() + "ÀÔ´Ï´Ù.");
-        System.out.print("µÎ¹øÂ° ¼ıÀÚ:");
-        System.out.println("µÎ¹øÂ° ¼ıÀÚ´Â " + sc.nextInt() + "ÀÔ´Ï´Ù.");
+        System.out.println("ë‘ê°œì˜ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”. ì…ë ¥í•˜ê³  ì—”í„° ì…ë ¥í•˜ê³  ì—”í„°!");
+        System.out.print("ì²«ë²ˆì§¸ ìˆ«ì:");
+        System.out.println("ì²«ë²ˆì§¸ ìˆ«ìëŠ” " + sc.nextInt() + "ì…ë‹ˆë‹¤.");
+        System.out.print("ë‘ë²ˆì§¸ ìˆ«ì:");
+        System.out.println("ë‘ë²ˆì§¸ ìˆ«ìëŠ” " + sc.nextInt() + "ì…ë‹ˆë‹¤.");
 
     }
 }
