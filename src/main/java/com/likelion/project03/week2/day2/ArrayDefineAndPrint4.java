@@ -1,4 +1,4 @@
-package com.likelion.project03.week2.day3;
+package com.likelion.project03.week2.day2;
 
 import java.util.Arrays;
 

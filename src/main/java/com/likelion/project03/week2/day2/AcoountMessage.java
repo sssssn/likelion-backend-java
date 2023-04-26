@@ -1,4 +1,4 @@
-package com.likelion.project03.week2.day3;
+package com.likelion.project03.week2.day2;
 
 public class AcoountMessage {
     public static void main(String[] args) {

@@ -11,7 +11,12 @@ public class Codeup1041 {
         Scanner sc = new Scanner(System.in);
         char ch = sc.next().charAt(0);
 
+        // 방법 1
         System.out.println((char) (ch + 1));
+
+        // 방법 2
+        ch++;
+        System.out.println(ch);
     }
 }
 

@@ -1,6 +1,4 @@
-package com.likelion.project03.week2.day3;
-
-import java.util.Scanner;
+package com.likelion.project03.week2.day2;
 
 public class StringEquals {
     public static void main(String[] args) {
