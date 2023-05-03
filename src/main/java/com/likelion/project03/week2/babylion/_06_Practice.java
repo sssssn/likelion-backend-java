@@ -5,7 +5,7 @@ package com.likelion.project03.week2.babylion;
  */
 import java.util.Scanner;
 
-public class Practice {
+public class _06_Practice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.printf("%.1f", (sc.nextFloat() + sc.nextFloat() + sc.nextFloat()) /3 );

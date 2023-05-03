@@ -1,8 +1,8 @@
 package com.likelion.project03.week2.babylion;
 
-public class UserTest {
+public class _09_UserTest {
     public static void main(String[] args) {
-        User user = new User();
+        _08_User user = new _08_User();
 
         user.age = 10;
         user.name = "아기사자";

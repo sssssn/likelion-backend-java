@@ -1,6 +1,6 @@
 package com.likelion.project03.week2.babylion;
 
-public class PrintTest2 {
+public class _07_PrintTest2 {
     public static void main(String[] args) {
         /* 변수 = "변하는 수";
         1. 변수를 선언
