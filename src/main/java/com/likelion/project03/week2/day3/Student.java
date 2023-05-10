@@ -5,4 +5,6 @@ public class Student {
     String phoneNumber;
     int age;
 
+    public void study() {
+    }
 }
