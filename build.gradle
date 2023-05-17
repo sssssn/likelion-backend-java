@@ -25,8 +25,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-  mainModule = 'com.likelion.project03'
-  mainClass = 'com.likelion.project03.HelloApplication'
+  mainModule = 'com.likelion.project02'
+  mainClass = 'com.likelion.project02.HelloApplication'
 }
 
 javafx {
