@@ -10,4 +10,10 @@ class MainTest {
     void checkLeapYear() {
         assertEquals(false, Main.checkLeapYear(1700));
     }
+
+    void testLeapYear() {
+        assertEquals(true, Main.isLeapYear(2020));
+        assertEquals(false, Main.isLeapYear(1900));
+        assertEquals(true, Main.isLeapYear(2400));
+    }
 }
