@@ -2,6 +2,23 @@ package com.likelion.project02.week7.day2;
 
 public class Main {
     public static void main(String[] args) {
+        game369();
+    }
+
+    private static void game369() {
+        for (int cnt = 0; cnt < 100; cnt++) {
+            System.out.print(cnt + "");
+            int a = cnt / 10;
+            int b = cnt % 10;
+            if (a % 3 == 0 && a != 0)
+                System.out.print("*");
+            if (b % 3 == 0 && b != 0)
+                System.out.print("*");
+            System.out.println();
+        }
+    }
+
+    private static void printcheckLeapYear() {
         int i = 1700;
         if ( checkLeapYear(i) )
             System.out.println(i + " O");
