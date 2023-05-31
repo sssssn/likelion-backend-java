@@ -2,18 +2,16 @@ package com.likelion.project02.week7.day3;
 
 import java.sql.*;
 
-public class DBMain {
+public class DBMain extends BaseDAO {
     public static void main(String[] args) {
-        initPerson();
+        DBMain dbMain = new DBMain();
+        dbMain.initPerson();
+        dbMain.getCodeName();
     }
 
-    private static void initPerson() {
-        Connection conn = null;
-        Statement smt = null;
-        PreparedStatement psmt = null;
-        ResultSet rs = null;
+    private void initPerson() {
         try {
-            conn = DriverManager.getConnection("jdbc:sqlite:world.db");
+            getConn();
             smt = conn.createStatement();
             smt.setQueryTimeout(30);  // set timeout to 30 sec.
 
@@ -31,36 +29,14 @@ public class DBMain {
             System.err.println(e.getMessage());
         }
         finally {
-            try {
-                if (rs != null) rs.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            try {
-                if (smt != null) smt.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            try {
-                if (psmt != null) psmt.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            try {
-                if (conn != null) conn.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            close();
         }
     }
 
-    private static void getCodeName() {
+    private void getCodeName() {
         String sql = "select code, name from country order by code, name";
-        Connection conn = null;
-        PreparedStatement psmt = null;
-        ResultSet rs = null;
         try {
-            conn = DriverManager.getConnection("jdbc:sqlite:world.db");
+            getConn();
             psmt = conn.prepareStatement(sql);
             rs = psmt.executeQuery();
             while( rs.next() ) {
@@ -70,21 +46,7 @@ public class DBMain {
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (rs != null) rs.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            try {
-                if (psmt != null) psmt.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            try {
-                if (conn != null) conn.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            close();
         }
     }
 }
