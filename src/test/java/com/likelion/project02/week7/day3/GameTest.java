@@ -3,6 +3,7 @@ package com.likelion.project02.week7.day3;
 import static org.junit.jupiter.api.Assertions.*;
 
 import com.likelion.project02.week7.day3.opgame.service.OpGame;
+import com.likelion.project02.week7.day3.opgame.service.PlusOperatorLevelOne;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -18,7 +19,7 @@ public class GameTest {
 
     @Test
     public void test() {
-        OpGame game = new OpGame();
+        OpGame game = new OpGame(new PlusOperatorLevelOne());
         game.makeQuestion();
         String question = game.getQuestion();
 
@@ -37,8 +38,9 @@ public class GameTest {
 
     @Test
     public void testSumMax() {
-        int a = 0;
-        int b = 0;
+        int a = (int)(Math.random() * 10);
+        int b = (int)(Math.random() * 10);
+        System.out.printf("%d + %d = %d", a, b, a + b);
         assertTrue(a + b < 10);
     }
 }
