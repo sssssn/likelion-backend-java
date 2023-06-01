@@ -1,4 +1,4 @@
-package com.likelion.project02.week7.day3.opgame.model;
+package com.likelion.project02.week7.day4.opgame.model;
 
 public class Member {
     String id;

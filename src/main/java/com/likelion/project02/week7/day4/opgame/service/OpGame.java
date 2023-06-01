@@ -1,4 +1,4 @@
-package com.likelion.project02.week7.day3.opgame.service;
+package com.likelion.project02.week7.day4.opgame.service;
 
 public class OpGame {
     int remainingAnswers;

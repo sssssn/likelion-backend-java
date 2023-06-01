@@ -1,6 +1,6 @@
-package com.likelion.project02.week7.day3.opgame.service;
+package com.likelion.project02.week7.day4.opgame.service;
 
-public class MinusOperatorLevelOne implements IOperator {
+public class PlusOperatorLevelOne implements IOperator {
     int a, b;
 
     @Override
@@ -16,21 +16,16 @@ public class MinusOperatorLevelOne implements IOperator {
     @Override
     public void generateQuestion(int max) {
         a = (int)(Math.random() * max);
-        b = (int)(Math.random() * max);
-        if (a < b) {
-            int tmp = b;
-            a = b;
-            b = tmp;
-        }
+        b = (int)(Math.random() * (max - a));
     }
 
     @Override
     public String getQuestionMsg() {
-        return String.format("%d - %d = ", a, b);
+        return String.format("%d + %d = ", a, b);
     }
 
     @Override
     public boolean isEquals(int answer) {
-        return (a - b) == answer;
+        return (a + b) == answer;
     }
 }

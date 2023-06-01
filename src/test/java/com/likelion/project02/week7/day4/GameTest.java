@@ -1,9 +1,9 @@
-package com.likelion.project02.week7.day3;
+package com.likelion.project02.week7.day4;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.likelion.project02.week7.day3.opgame.service.OpGame;
-import com.likelion.project02.week7.day3.opgame.service.PlusOperatorLevelOne;
+import com.likelion.project02.week7.day4.opgame.service.OpGame;
+import com.likelion.project02.week7.day4.opgame.service.PlusOperatorLevelOne;
 import org.junit.jupiter.api.Test;
 
 /**

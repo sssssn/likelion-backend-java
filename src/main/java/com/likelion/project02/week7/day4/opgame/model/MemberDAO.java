@@ -1,4 +1,4 @@
-package com.likelion.project02.week7.day3.opgame.model;
+package com.likelion.project02.week7.day4.opgame.model;
 
 import java.sql.SQLException;
 import java.util.Optional;

@@ -1,10 +1,12 @@
-package com.likelion.project02.week7.day3;
+package com.likelion.project02.week7.day4;
 
-import com.likelion.project02.week7.day3.opgame.model.Member;
-import com.likelion.project02.week7.day3.opgame.model.MemberDAO;
+import com.likelion.project02.week7.day4.opgame.model.Member;
+import com.likelion.project02.week7.day4.opgame.model.MemberDAO;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DAOTest {
 
